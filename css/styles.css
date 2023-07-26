@@ -840,3 +840,60 @@ body {
 .modal-form-btn:focus {
   background-color: var(--ocean);
 }
+
+.check-text {
+  color: var(--light-slate);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+}
+
+.privacy-link {
+  color: var(--iris);
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+
+.check-text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid var(--navyblue-modal);
+  margin-right: 12px;
+}
+
+.check-icon {
+  fill: transparent;
+}
+
+.check-box-span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  fill: transparent;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-check:focus + .check-text > .check-box-span {
+  border-color: var(--ocean);
+}
+
+.modal-check:checked + .check-text > .check-box-span {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
+}
