@@ -764,6 +764,9 @@ body {
   fill: var(--iris);
 }
 .modal-field {
+  margin-bottom: 8px;
+}
+.modal-field-textarea {
   margin-bottom: 16px;
 }
 
