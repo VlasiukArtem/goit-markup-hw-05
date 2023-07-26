@@ -770,6 +770,9 @@ body {
   margin-bottom: 16px;
 }
 
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
 .input-wrap {
   position: relative;
 }
@@ -844,7 +847,7 @@ body {
 .check-text {
   color: var(--light-slate);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
