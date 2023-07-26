@@ -862,7 +862,6 @@ body {
 }
 
 .check-text span {
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 16px;
