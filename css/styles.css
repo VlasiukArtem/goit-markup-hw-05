@@ -533,8 +533,10 @@ body {
 }
 
 .footer-form-content {
+  margin-left: 80px;
 }
 .footer-form-text {
+  margin-bottom: 16px;
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -552,12 +554,16 @@ body {
   padding: 0 16px;
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-right: 24px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-input::placeholder {
-  color: var(--white);
+  color: #ffffff;
   font-size: 12px;
   font-weight: 400;
   line-height: 2;
@@ -586,6 +592,7 @@ body {
 
 .footer-form-btn-icon {
   fill: var(--white);
+  margin-left: 16px;
 }
 
 /**-----PORTFOLIO.HTML----- */
