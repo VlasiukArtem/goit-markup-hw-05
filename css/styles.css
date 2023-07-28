@@ -533,8 +533,14 @@ body {
 }
 
 .footer-form-content {
+  display: flex;
 }
 .footer-form-text {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer-form {
 }
@@ -547,6 +553,14 @@ body {
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-right: 24px;
+}
+
+.footer-input::placeholder {
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 .footer-form-btn {
   color: var(--white);
